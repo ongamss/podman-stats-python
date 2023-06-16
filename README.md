@@ -1,5 +1,6 @@
 # podman-stats-python
-Alternativa ao uso de docker para criação de containers o podman tem basicamente todos os recursos disponíveis no docker. Nesse painel de monitoramento feito em python é exibido as métricas do pods criados o comando podman run onde os pods com uso de memória ou cpu entre 70% a 80% ficam marcados com a cor laranja e acima de 80% vermelho.
+O [podman] (https://podman.io/) é uma alternativa altamente recomendada em vez dos contêineres do Docker quando você busca maior segurança, isolamento de identificador exclusivo (UID) por meio de namespaces e integração com o systemd.
+Nesse painel de monitoramento feito em python é exibido as métricas do pods criados o comando 'podman run', onde os pods com uso de memória ou cpu entre 70% a 80% ficam marcados com a cor laranja e acima de 80% vermelho.
 - Exemplo de criação de dois pods:
 ## criação de pod1 com imagem nginx
 ```
