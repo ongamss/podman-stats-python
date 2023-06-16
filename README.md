@@ -1,6 +1,6 @@
 # podman-stats-python
 Alternativa ao uso de docker para criação de containers o podman tem basicamente todos os recursos disponíveis no docker. Nesse painel de monitoramento feito em python é exibido as métricas do pods criados o comando podman run.
-Exemplo de criação de dois pods:
+- Exemplo de criação de dois pods:
 ## criação de pod1 com imagem nginx
 ```
 sudo podman run -d --name nx1 -m 256m --cpus=1 -p 9004:80 nginx
