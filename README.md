@@ -13,5 +13,14 @@ Para simular o cenário de uso de recursos foi utilizando o comando stress via p
 ```
 stress --cpu 1 --io 4 --vm 4 --vm-bytes 128M --timeout 120s
 ```
+## Instalação
+```
+sudo pip3 install -r requirements.txt
+```
+## Execução
+```
+sudo python3 monitor.py
+```
+Acesse no browser o endereço: http://127.0.0.1:8050 para visualização do painel
 
 ![Podman-stats1](https://github.com/ongamss/podman-stats-python/assets/70037523/a5ed59d0-55e7-4afe-87dd-8cdd318c7119)
