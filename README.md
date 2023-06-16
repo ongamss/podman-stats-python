@@ -23,5 +23,5 @@ sudo pip3 install -r requirements.txt
 sudo python3 monitor.py
 ```
 Acesse no browser o endereço: http://127.0.0.1:8050 para visualização do painel
+![Podman-stats1](https://github.com/ongamss/podman-stats-python/assets/70037523/fc76c978-df5b-43b1-94bc-8ee6d0eb20ca)
 
-![Podman-stats1](https://github.com/ongamss/podman-stats-python/assets/70037523/a5ed59d0-55e7-4afe-87dd-8cdd318c7119)
